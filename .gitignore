@@ -2,3 +2,4 @@ ebin
 dist
 include/RABBITMQ-MIB.hrl
 snmp/RABBITMQ-MIB.bin
+build

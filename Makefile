@@ -1,9 +1,4 @@
-PACKAGE=rabbitmq-snmp
-DEPS=
-EXTRA_PACKAGE_DIRS=snmp
-
-include ../include.mk
-
+include ../umbrella.mk
 
 ebin/rabbit_snmp.beam: include/RABBITMQ-MIB.hrl snmp/RABBITMQ-MIB.bin
 
