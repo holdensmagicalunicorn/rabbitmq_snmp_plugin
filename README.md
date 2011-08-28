@@ -48,7 +48,7 @@ based off of: http://www.rabbitmq.com/plugin-development.html
 	      % db_dir will be set by the snmp plugin before it starts snmp so leave this commented out
 	      %{db_dir, ""},
 	      {versions, [v1, v2]},
-	      % dir will be added by the snmp plugin before it starts snmp, so dont add it to the config block below
+	      % dir will be added by the snmp plugin before it starts snmp, so don't add it to the config block below
 	      {config, [{verbosity, silence}]},
 	      {net_if, [{verbosity, silence}]}
 	    ]},
